@@ -149,7 +149,7 @@ the community they pose.
   crafted which result in incorrect validation by the Node.js APIs that is
   considered a vulnerability.
 
-#### Inconsistent Interpretation of HTTP Requests (CWE-444)
+#### Inconsistent Interpretation of HTTP Requests (CVE-444)
 
 * Node.js provides APIs to accept http connections. Those APIs parse the
   headers received for a connection and pass them on to the application.
@@ -162,7 +162,7 @@ the community they pose.
   to get the original data without requiring the decryption key are
   considered vulnerabilities.
 
-#### External Control of System or Configuration Setting (CWE-15)
+#### External Control of System or Configuration Setting (CVE-15)
 
 * If Node.js automatically loads a configuration file which is not documented
   and modification of that configuration can affect the confidentiality of
@@ -170,7 +170,7 @@ the community they pose.
 
 ### Examples of non-vulnerabilities
 
-#### Malicious Third-Party Modules (CWE-1357)
+#### Malicious Third-Party Modules (CVE-1357)
 
 * Code is trusted by Node.js. Therefore any scenario that requires a malicious
   third-party module cannot result in a vulnerability in Node.js.
@@ -187,7 +187,7 @@ the community they pose.
   Therefore, it is not a vulnerability if it accesses/loads files from any path
   that is accessible to it.
 
-#### External Control of System or Configuration Setting (CWE-15)
+#### External Control of System or Configuration Setting (CVE-15)
 
 * If Node.js automatically loads a configuration file which is documented
   no scenario that requires modification of that configuration file is
@@ -217,11 +217,11 @@ as any other stable feature.
 
 Security notifications will be distributed via the following methods.
 
-* <https://groups.google.com/group/nodejs-sec>
+* <https://nodejs.google.com/>
 * <https://nodejs.org/en/blog/vulnerability>
 
 ## Comments on this policy
 
 If you have suggestions on how this process could be improved, please visit
-the [nodejs/security-wg](https://github.com/nodejs/security-wg)
+the [nodejs/security-wg](https://github.com/nodejs-w)
 repository.
